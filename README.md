@@ -1,9 +1,10 @@
-ABOUT
+ABOUT:
 This program was written with the intention of creating an executable for the Windows platform to enable teams responsible for eDiscovery and required to put legal holds on Box accouts.
 It's a great way to help with the learning curve for new Administrators unfamiliar with the Box Cloud storage platform and the process of creating legal holds. This is a great tool to use
 if there is a backlog of legal holds that need to be placed. You will need to set up the app in the Box admin console and Box developer console. 
 
 WHAT YOU NEED:
+- PYTHON 3.8
 - Box admin privileges with access to governance.
 - Box Client ID and Client Secret (set up a Box app in admin console and dev console. https://developer.box.com/guides/applications/)
 - You will need to create an OAuth 2.0 Redirect URI for authenticating to Box and you WILL need to add it to the Python Code before running it or it will fail.
